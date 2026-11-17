@@ -1,0 +1,66 @@
+# SOCIAL MEDIA ENGAGEMENT ANALYTICS USING PYTHON
+## One-Page Project Summary
+
+### 1. PROJECT OBJECTIVE
+
+To analyze social media engagement data and identify patterns in audience behavior, content performance, and engagement metrics. The project aims to generate meaningful insights that can support data-driven content strategies.
+
+### 2. DATASET OVERVIEW
+
+- **Total Records:** 5,000
+- **Original Features:** 19
+- **Data Format:** CSV
+- **Key Metrics:** Likes, Comments, Shares, Impressions, Watch Time, and Engagement Rate.
+
+### 3. TOOLS AND TECHNOLOGIES
+
+Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, and Jupyter Notebook.
+
+### 4. METHODOLOGY
+
+1. Imported and explored the dataset using Pandas.
+2. Handled missing values using median and mode imputation.
+3. Identified and removed duplicate records.
+4. Corrected data types and standardized categorical values.
+5. Created additional features, including Engagement Score, Hashtag Count, and posting-time attributes.
+6. Performed statistical analysis using descriptive statistics, percentiles, variance, and standard deviation.
+7. Used visualizations and group-by analysis to investigate engagement patterns.
+
+### 5. KEY FINDINGS FROM DATA ANALYSIS
+
+1. **Best Performing Post Type:** Food
+2. **Highest Performing Post Category:** Video
+3. **Country With Highest Average Engagement Rate:** Brazil
+4. **Age With Highest Average Engagement:** 24 years
+
+5. **Verified vs. Unverified Users:**
+
+   - Unverified (False): 0.954744
+   - Verified (True): 1.054250
+
+6. **Best Posting Hour Based on Average Impressions:** Tuesday
+7. **Device With Highest Average Watch Time:** Mobile
+
+8. **Sentiment With Highest Average Engagement:**
+
+   - Negative: 12731.483333
+   - Positive: 12665.784322
+   - Neutral: 12448.149312
+
+### 6. BUSINESS RECOMMENDATIONS
+
+- Prioritize content types and categories with stronger engagement performance.
+- Identify high-engagement countries and audience segments for targeted content.
+- Use posting-time analysis to support content scheduling decisions.
+- Evaluate device-wise watch time to understand content consumption patterns.
+- Monitor audience sentiment to improve content relevance and engagement.
+
+### 7. CONCLUSION
+
+The analysis demonstrates how Python-based data analytics can transform raw social media data into meaningful information. Data cleaning, feature engineering, statistical analysis, and visualization helped examine engagement patterns and compare content performance.
+
+The findings can support informed decisions about content planning, audience targeting, and social media engagement strategies.
+
+---
+
+**PROJECT STATUS: COMPLETED**
